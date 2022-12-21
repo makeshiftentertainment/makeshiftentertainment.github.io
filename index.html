@@ -1,13 +1,38 @@
 <!DOCTYPE html>
 <style>
-    body{background-color:black}
+    .flex-container {
+        display: flex;
+        flex-wrap: nowrap;
+        background-color: #B2ECE7;
+    }
+    .flex-container2 {
+        display: flex;
+        flex-wrap: nowrap;
+        background-color: #0E011B;
+        height: 200px;
+    }
+    ul {
+        list-style-type: none;
+        margin: 12px;
+        padding: 20px;
+    }
+    li {
+        display: inline;
+    }
+    body {
+        background-color: #151515;
+    }
 </style>
 <html>
     <head>
         <title>makeshift landing page</title>
     </head>
     <body>
-        <h1 style="background-color:cadetblue;color:black;font-family:'Segoe UI'">makeshift</h1>
-        <a href="./tjomoot/tjomoot_main.html" style="color:white">tjomoot</a>
+        <div class="flex-container">
+            <h1 style="color: black; font-family: 'Segoe UI'; padding-left: 10px">makeshift</h1>
+            <ul>
+                <li><a href="./tjomoot/tjomoot_main.html" style="color: white; font-size: large; font-family: 'Segoe UI'; background-color: #1B606C; ">tjomoot</a></li>
+            </ul>
+        </div>
     </body>
 </html>
